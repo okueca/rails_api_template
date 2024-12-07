@@ -5,7 +5,7 @@ module ApiResponseHandler
     render json: JsonResponse.new(options), status: status
   end
 
-  def render_error_response(error, status = 422, message = '')
+  def render_error_response(error, message = '', status = 422)
     json_response({
                     success: false,
                     message: message,
@@ -13,7 +13,7 @@ module ApiResponseHandler
                   }, status)
   end
 
-  def render_success_response(data: {}, message: '', status: 200, meta: {})
+  def render_success_response(data = {}, message = '', meta = {}, status = 200)
     json_response({
                     success: true,
                     message: message,
