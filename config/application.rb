@@ -28,7 +28,7 @@ module MatoApi
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
-    config.autoload_paths << "#{Rails.root}/lib/okueca_libs"
+    config.autoload_paths << "#{Rails.root}/lib/okueca_tools"
 
   end
 end

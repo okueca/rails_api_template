@@ -38,6 +38,8 @@ gem "rack-cors"
 # Devise
 gem 'devise'
 gem 'devise-jwt'
+gem 'jsonapi-serializer'
+
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem

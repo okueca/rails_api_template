@@ -13,7 +13,7 @@ module ApiResponseHandler
                   }, status)
   end
 
-  def render_success_response(data = {}, message = '', meta = {}, status = 200)
+  def render_success_response(data = {}, message = "", meta = {}, status = 200)
     json_response({
                     success: true,
                     message: message,
