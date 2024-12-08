@@ -35,7 +35,7 @@ This repository provides a **Ruby on Rails API template** that includes user aut
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/rails_api_template.git
+   git clone https://github.com/okueca/rails_api_template.git
    cd rails_api_template
    ```
 
@@ -44,12 +44,29 @@ This repository provides a **Ruby on Rails API template** that includes user aut
    bundle install
    ```
 
-3. Set up your database:
+3. Generate a Rails secret key:
+   ```bash
+   bundle exec rails secret
+   ```
+
+4. Add the secret to your encrypted credentials file:
+   - If you use **VSCode** as your editor:
+     ```bash
+     EDITOR='code --wait' rails credentials:edit
+     ```
+   - Add the following to your encrypted credentials file:
+     ```yaml
+     # Other secrets...
+     # Used as the base secret for Devise-JWT
+     devise_jwt_secret_key: <paste your generated secret here>
+     ```
+
+5. Set up your database:
    ```bash
    rails db:create db:migrate
    ```
 
-4. Start the server:
+6. Start the server:
    ```bash
    rails server
    ```
