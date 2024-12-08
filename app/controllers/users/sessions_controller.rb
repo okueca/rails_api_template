@@ -10,10 +10,9 @@ class Users::SessionsController < Devise::SessionsController
     if resource && resource.persisted?
       # Successfully logged in
       render json: {
-        status: { 
-          code: 200, message: 'Logged in successfully.',
-          data: { user: UserSerializer.new(current_user).serializable_hash[:data][:attributes] }
-        }
+        status: 200,
+        message: 'Logged in successfully.',
+        data: { user: UserSerializer.new(current_user).serializable_hash[:data][:attributes] }
       }, status: :ok
     else
       # Failed login
