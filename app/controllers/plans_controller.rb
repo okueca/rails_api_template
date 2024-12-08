@@ -4,7 +4,6 @@ class PlansController < ApplicationController
   # GET /plans
   def index
     @plans = Plan.all
-
     render json: @plans
   end
 
@@ -18,25 +17,25 @@ class PlansController < ApplicationController
     @plan = Plan.new(plan_params)
 
     if @plan.save
-      render_success_response(data: PlanSerializer.new(@plan).serializable_hash[:data][:attributes], message: "Plan created", status: :created)
-      #render json: @plan, status: :created, location: @plan
+      render_success_response(data: {plan: PlanSerializer.new(@plan).serializable_hash[:data][:attributes]}, message: "Plan created", status: :created)
     else
-      render json: @plan.errors, status: :unprocessable_entity
+      render_error_response(errors: @plan.errors, message: "Failed to create a plan", status: :unprocessable_entity)
     end
   end
 
   # PATCH/PUT /plans/1
   def update
     if @plan.update(plan_params)
-      render json: @plan
+      render_success_response(data: {plan: PlanSerializer.new(@plan).serializable_hash[:data][:attributes]}, message: "Plan Updated", status: 200)
     else
-      render json: @plan.errors, status: :unprocessable_entity
+      render_error_response(errors: @plan.errors, message: "Failed to update the plan", status: :unprocessable_entity)
     end
   end
 
   # DELETE /plans/1
   def destroy
     @plan.destroy!
+    render_success_response(data: {plan: PlanSerializer.new(@plan).serializable_hash[:data][:attributes]}, message: "Plan Deleted", status: 200)
   end
 
   private

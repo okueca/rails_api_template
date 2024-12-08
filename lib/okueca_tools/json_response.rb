@@ -7,16 +7,14 @@ class JsonResponse
   attr_reader :success, :message, :data, :meta, :errors
 
   def initialize(options = {})
-    @success = options[:success]
-    @message = options[:message] || ''
-    @data = options[:data] || []
-    @meta = options[:meta] || []
-    @errors = options[:errors] || []
+    @message = options[:data][:message] || ""
+    @data = options[:data][:data] || []
+    @meta = options[:data][:meta] || []
+    @errors = options[:data][:errors] || []
   end
 
   def as_json(*)
     {
-      success: @success,
       message: @message,
       data: @data,
       meta: @meta,

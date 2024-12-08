@@ -1017,3 +1017,1929 @@ Processing by PlansController#create as */*
 Completed 200 OK in 103ms (Views: 1.1ms | ActiveRecord: 22.4ms | Allocations: 20454)
 
 
+  [1m[36mActiveRecord::SchemaMigration Load (3.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/plans" for ::1 at 2024-12-08 13:20:30 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (9.9ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 13:20:31.687565"], ["updated_at", "2024-12-08 13:20:31.687565"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 257ms (Views: 0.9ms | ActiveRecord: 60.2ms | Allocations: 46280)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 13:23:04 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (8.0ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 13:23:04.928913"], ["updated_at", "2024-12-08 13:23:04.928913"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (6.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 85ms (Views: 0.9ms | ActiveRecord: 29.4ms | Allocations: 7345)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 13:26:00 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (6.5ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 13:26:00.725868"], ["updated_at", "2024-12-08 13:26:00.725868"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 72ms (Views: 0.9ms | ActiveRecord: 22.1ms | Allocations: 7261)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 13:27:20 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (7.8ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 13:27:21.089879"], ["updated_at", "2024-12-08 13:27:21.089879"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (6.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 70ms (Views: 0.7ms | ActiveRecord: 25.3ms | Allocations: 7369)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 13:28:17 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (5.1ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 13:28:18.110076"], ["updated_at", "2024-12-08 13:28:18.110076"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 67ms (Views: 0.6ms | ActiveRecord: 22.2ms | Allocations: 7252)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 13:30:14 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (4.6ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 13:30:14.425965"], ["updated_at", "2024-12-08 13:30:14.425965"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 56ms (Views: 1.0ms | ActiveRecord: 18.4ms | Allocations: 7238)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 13:31:52 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (5.8ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 13:31:52.393099"], ["updated_at", "2024-12-08 13:31:52.393099"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 58ms (Views: 0.7ms | ActiveRecord: 19.2ms | Allocations: 7247)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 13:33:19 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (5.2ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 13:33:20.096062"], ["updated_at", "2024-12-08 13:33:20.096062"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 68ms (Views: 0.7ms | ActiveRecord: 20.8ms | Allocations: 7229)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 13:34:11 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (6.3ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 13:34:11.335739"], ["updated_at", "2024-12-08 13:34:11.335739"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 62ms (Views: 1.1ms | ActiveRecord: 21.5ms | Allocations: 7240)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 13:35:02 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (5.3ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 13:35:03.013354"], ["updated_at", "2024-12-08 13:35:03.013354"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 62ms (Views: 1.0ms | ActiveRecord: 20.6ms | Allocations: 7288)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 13:35:34 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (5.7ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 13:35:34.762789"], ["updated_at", "2024-12-08 13:35:34.762789"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (6.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 92ms (Views: 0.8ms | ActiveRecord: 24.4ms | Allocations: 7290)
+
+
+Started DELETE "/logout" for ::1 at 2024-12-08 13:36:18 +0000
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 497)
+
+
+  
+JWT::ExpiredSignature (Signature has expired):
+  
+app/controllers/users/sessions_controller.rb:19:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 13:52:27 +0000
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 376)
+
+
+  
+JWT::ExpiredSignature (Signature has expired):
+  
+app/controllers/users/sessions_controller.rb:19:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 13:56:30 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 520)
+
+
+  
+JWT::ExpiredSignature (Signature has expired):
+  
+app/controllers/users/sessions_controller.rb:19:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 13:58:19 +0000
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 376)
+
+
+  
+JWT::ExpiredSignature (Signature has expired):
+  
+app/controllers/users/sessions_controller.rb:19:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 13:58:52 +0000
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 376)
+
+
+  
+JWT::ExpiredSignature (Signature has expired):
+  
+app/controllers/users/sessions_controller.rb:19:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 14:10:23 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 520)
+
+
+  
+JWT::ExpiredSignature (Signature has expired):
+  
+app/controllers/users/sessions_controller.rb:19:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 14:16:40 +0000
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 378)
+
+
+  
+JWT::ExpiredSignature (Signature has expired):
+  
+app/controllers/users/sessions_controller.rb:21:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 14:17:08 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 522)
+
+
+  
+JWT::ExpiredSignature (Signature has expired):
+  
+app/controllers/users/sessions_controller.rb:21:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 14:20:00 +0000
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 381)
+
+
+  
+RuntimeError (Signature has expired):
+  
+app/controllers/users/sessions_controller.rb:25:in `rescue in respond_to_on_destroy'
+app/controllers/users/sessions_controller.rb:19:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 14:27:56 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (6.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 2374)
+
+
+  
+NameError (uninitialized constant Users::SessionsController::ExceptionHandler
+Did you mean?  ApiExceptionsHandler):
+  
+app/controllers/users/sessions_controller.rb:25:in `rescue in respond_to_on_destroy'
+app/controllers/users/sessions_controller.rb:19:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 14:29:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 2374)
+
+
+  
+NameError (uninitialized constant Users::SessionsController::ExceptionHandler
+Did you mean?  ApiExceptionsHandler):
+  
+app/controllers/users/sessions_controller.rb:25:in `rescue in respond_to_on_destroy'
+app/controllers/users/sessions_controller.rb:19:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 14:33:29 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 524)
+
+
+  
+JWT::ExpiredSignature (Signature has expired):
+  
+app/controllers/users/sessions_controller.rb:21:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 14:48:04 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/users/sessions_controller.rb:8:in `included'
+app/controllers/users/sessions_controller.rb:8:in `<class:SessionsController>'
+app/controllers/users/sessions_controller.rb:3:in `<main>'
+Started DELETE "/logout" for ::1 at 2024-12-08 14:51:04 +0000
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 2376)
+
+
+  
+NameError (uninitialized constant Users::SessionsController::ApiExceptionHandler
+Did you mean?  ApiExceptionsHandler):
+  
+app/controllers/users/sessions_controller.rb:25:in `rescue in respond_to_on_destroy'
+app/controllers/users/sessions_controller.rb:19:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 14:51:26 +0000
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 1159)
+
+
+  
+NoMethodError (undefined method `handle_exceptions' for ApiExceptionsHandler:Module):
+  
+app/controllers/users/sessions_controller.rb:25:in `rescue in respond_to_on_destroy'
+app/controllers/users/sessions_controller.rb:19:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 14:52:13 +0000
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 953)
+
+
+  
+NoMethodError (undefined method `handle_exceptions' for ApiExceptionsHandler:Module):
+  
+app/controllers/users/sessions_controller.rb:25:in `rescue in respond_to_on_destroy'
+app/controllers/users/sessions_controller.rb:19:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 14:52:30 +0000
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 384)
+
+
+  
+TypeError (exception class/object expected):
+  
+app/controllers/users/sessions_controller.rb:25:in `raise'
+app/controllers/users/sessions_controller.rb:25:in `rescue in respond_to_on_destroy'
+app/controllers/users/sessions_controller.rb:19:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 14:54:18 +0000
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 378)
+
+
+  
+JWT::ExpiredSignature (Signature has expired):
+  
+app/controllers/users/sessions_controller.rb:20:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 14:57:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NoMethodError (undefined method `after_action' for ApiExceptionsHandler:Module):
+  
+app/controllers/concerns/api_exceptions_handler.rb:4:in `<module:ApiExceptionsHandler>'
+app/controllers/concerns/api_exceptions_handler.rb:1:in `<main>'
+app/controllers/application_controller.rb:3:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users/sessions_controller.rb:3:in `<main>'
+Started DELETE "/logout" for ::1 at 2024-12-08 15:13:15 +0000
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 509)
+
+
+  
+JWT::ExpiredSignature (Signature has expired):
+  
+app/controllers/users/sessions_controller.rb:20:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 15:21:51 +0000
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 3ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 593)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...); return".):
+  
+app/controllers/users/sessions_controller.rb:39:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 15:22:52 +0000
+Processing by Users::SessionsController#destroy as */*
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 2206)
+
+
+  
+NameError (uninitialized constant Users::SessionsController::ExceptionHandler
+Did you mean?  ApiExceptionsHandler):
+  
+app/controllers/users/sessions_controller.rb:25:in `rescue in respond_to_on_destroy'
+app/controllers/users/sessions_controller.rb:19:in `respond_to_on_destroy'
+Started DELETE "/logout" for ::1 at 2024-12-08 15:24:32 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#destroy as */*
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 669)
+
+
+Started DELETE "/logout" for ::1 at 2024-12-08 15:25:28 +0000
+Processing by Users::SessionsController#destroy as */*
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 433)
+
+
+Started DELETE "/logout" for ::1 at 2024-12-08 15:33:36 +0000
+Processing by Users::SessionsController#destroy as */*
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 211)
+
+
+Started DELETE "/logout" for ::1 at 2024-12-08 15:34:02 +0000
+Processing by Users::SessionsController#destroy as */*
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 433)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 15:44:28 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (28.5ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 15:44:29.584003"], ["updated_at", "2024-12-08 15:44:29.584003"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (6.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 500 Internal Server Error in 569ms (ActiveRecord: 80.9ms | Allocations: 46438)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:5:in `new'
+app/controllers/concerns/api_response_handler.rb:5:in `json_response'
+app/controllers/concerns/api_response_handler.rb:17:in `render_success_response'
+app/controllers/plans_controller.rb:21:in `create'
+Started POST "/plans" for ::1 at 2024-12-08 15:44:59 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (9.4ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 15:45:00.101780"], ["updated_at", "2024-12-08 15:45:00.101780"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (6.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+LocalJumpError
+no block given (yield)
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:403:in `block in make_lambda'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:250:in `block in halting'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:602:in `block in invoke_after'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:602:in `each'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:602:in `invoke_after'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:111:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:258:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rescue.rb:25:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `block in instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:160:in `process'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:227:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:309:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:51:in `block in serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `each'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:882:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/token_dispatcher.rb:20:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/revocation_manager.rb:21:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/builder.rb:277:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware.rb:22:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:36:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `catch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/etag.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/conditional_get.rb:43:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/head.rb:15:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/migration.rb:655:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:101:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `block in tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:39:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/broadcast_logger.rb:241:in `method_missing'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/request_id.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/runtime.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/static.rb:25:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/sendfile.rb:114:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-cors-2.0.2/lib/rack/cors.rb:102:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/engine.rb:536:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/configuration.rb:279:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:99:in `block in handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:98:in `handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:468:in `process_client'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:249:in `block in run'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:166:in `block in spawn_thread'
+Completed 500 Internal Server Error in 84ms (Views: 0.9ms | ActiveRecord: 33.3ms | Allocations: 7994)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:5:in `new'
+app/controllers/concerns/api_response_handler.rb:5:in `json_response'
+app/controllers/concerns/api_response_handler.rb:9:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:49:in `handle_standard_error'
+app/controllers/concerns/api_exceptions_handler.rb:24:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started POST "/plans" for ::1 at 2024-12-08 15:45:27 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (5.3ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 15:45:27.679936"], ["updated_at", "2024-12-08 15:45:27.679936"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (6.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+LocalJumpError
+no block given (yield)
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:403:in `block in make_lambda'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:250:in `block in halting'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:602:in `block in invoke_after'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:602:in `each'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:602:in `invoke_after'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:111:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:258:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rescue.rb:25:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `block in instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:160:in `process'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:227:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:309:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:51:in `block in serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `each'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:882:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/token_dispatcher.rb:20:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/revocation_manager.rb:21:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/builder.rb:277:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware.rb:22:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:36:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `catch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/etag.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/conditional_get.rb:43:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/head.rb:15:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/migration.rb:655:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:101:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `block in tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:39:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/broadcast_logger.rb:241:in `method_missing'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/request_id.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/runtime.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/static.rb:25:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/sendfile.rb:114:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-cors-2.0.2/lib/rack/cors.rb:102:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/engine.rb:536:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/configuration.rb:279:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:99:in `block in handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:98:in `handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:468:in `process_client'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:249:in `block in run'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:166:in `block in spawn_thread'
+Completed 500 Internal Server Error in 82ms (Views: 0.7ms | ActiveRecord: 27.5ms | Allocations: 7959)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:5:in `new'
+app/controllers/concerns/api_response_handler.rb:5:in `json_response'
+app/controllers/concerns/api_response_handler.rb:9:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:49:in `handle_standard_error'
+app/controllers/concerns/api_exceptions_handler.rb:24:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started POST "/plans" for ::1 at 2024-12-08 15:45:53 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (5.5ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 15:45:53.790593"], ["updated_at", "2024-12-08 15:45:53.790593"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (6.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+LocalJumpError
+no block given (yield)
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:403:in `block in make_lambda'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:250:in `block in halting'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:602:in `block in invoke_after'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:602:in `each'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:602:in `invoke_after'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:111:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:258:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rescue.rb:25:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `block in instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:160:in `process'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:227:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:309:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:51:in `block in serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `each'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:882:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/token_dispatcher.rb:20:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/revocation_manager.rb:21:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/builder.rb:277:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware.rb:22:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:36:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `catch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/etag.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/conditional_get.rb:43:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/head.rb:15:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/migration.rb:655:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:101:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `block in tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:39:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/broadcast_logger.rb:241:in `method_missing'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/request_id.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/runtime.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/static.rb:25:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/sendfile.rb:114:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-cors-2.0.2/lib/rack/cors.rb:102:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/engine.rb:536:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/configuration.rb:279:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:99:in `block in handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:98:in `handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:468:in `process_client'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:249:in `block in run'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:166:in `block in spawn_thread'
+Completed 500 Internal Server Error in 75ms (Views: 0.9ms | ActiveRecord: 25.9ms | Allocations: 7948)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:5:in `new'
+app/controllers/concerns/api_response_handler.rb:5:in `json_response'
+app/controllers/concerns/api_response_handler.rb:9:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:49:in `handle_standard_error'
+app/controllers/concerns/api_exceptions_handler.rb:24:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started POST "/plans" for ::1 at 2024-12-08 15:46:57 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (5.0ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 15:46:58.076245"], ["updated_at", "2024-12-08 15:46:58.076245"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 256ms (Views: 1.1ms | ActiveRecord: 39.9ms | Allocations: 46276)
+
+
+Started DELETE "/logout" for ::1 at 2024-12-08 15:47:31 +0000
+Processing by Users::SessionsController#destroy as */*
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 568)
+
+
+Started POST "/login" for ::1 at 2024-12-08 15:47:47 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis18@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis18@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis18@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+Completed 401 Unauthorized in 69ms (ActiveRecord: 14.3ms | Allocations: 6583)
+
+
+Started POST "/login" for ::1 at 2024-12-08 15:47:56 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (6.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis1@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+Completed 200 OK in 984ms (Views: 0.8ms | ActiveRecord: 6.5ms | Allocations: 20759)
+
+
+Started POST "/login" for ::1 at 2024-12-08 15:48:06 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis16@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+Completed 401 Unauthorized in 18ms (ActiveRecord: 1.7ms | Allocations: 1247)
+
+
+Started POST "/login" for ::1 at 2024-12-08 15:50:04 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis16@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+Completed 401 Unauthorized in 203ms (ActiveRecord: 11.6ms | Allocations: 2865)
+
+
+Started POST "/login" for ::1 at 2024-12-08 15:50:46 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis16@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+Completed 401 Unauthorized in 189ms (ActiveRecord: 35.7ms | Allocations: 29602)
+
+
+Started POST "/login" for ::1 at 2024-12-08 15:55:03 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis16@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 177ms (ActiveRecord: 32.1ms | Allocations: 29566)
+
+
+Started POST "/login" for ::1 at 2024-12-08 15:55:06 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis16@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 12ms (ActiveRecord: 1.4ms | Allocations: 1075)
+
+
+Started POST "/login" for ::1 at 2024-12-08 15:55:25 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis16@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 192ms (ActiveRecord: 39.0ms | Allocations: 29572)
+
+
+Started POST "/login" for ::1 at 2024-12-08 15:59:54 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis16@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:11:in `create'
+Completed 401 Unauthorized in 30ms (ActiveRecord: 12.3ms | Allocations: 2850)
+
+
+Started POST "/login" for ::1 at 2024-12-08 16:00:19 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis16@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:12:in `create'
+Completed 401 Unauthorized in 34ms (ActiveRecord: 16.9ms | Allocations: 2842)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (3.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/login" for ::1 at 2024-12-08 16:56:48 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis16@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+Completed 401 Unauthorized in 185ms (ActiveRecord: 44.0ms | Allocations: 29565)
+
+
+Started POST "/login" for ::1 at 2024-12-08 16:57:07 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis16@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis16@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+Completed 401 Unauthorized in 11ms (ActiveRecord: 1.1ms | Allocations: 1105)
+
+
+Started POST "/login" for ::1 at 2024-12-08 16:57:35 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis1@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+Completed 200 OK in 1013ms (Views: 0.7ms | ActiveRecord: 12.5ms | Allocations: 24732)
+
+
+Started POST "/login" for ::1 at 2024-12-08 16:58:33 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis1@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+Completed 401 Unauthorized in 908ms (ActiveRecord: 1.0ms | Allocations: 1311)
+
+
+Started POST "/login" for ::1 at 2024-12-08 17:04:20 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis1@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+Completed 401 Unauthorized in 1053ms (ActiveRecord: 18.4ms | Allocations: 9159)
+
+
+Started POST "/login" for ::1 at 2024-12-08 17:08:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis1@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:9:in `create'
+Completed 401 Unauthorized in 1128ms (ActiveRecord: 35.0ms | Allocations: 50338)
+
+
+Started POST "/login" for ::1 at 2024-12-08 17:08:47 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis1@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:9:in `create'
+Completed 401 Unauthorized in 942ms (ActiveRecord: 1.1ms | Allocations: 1264)
+
+
+Started POST "/login" for ::1 at 2024-12-08 17:17:11 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis1@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:9:in `create'
+Completed 401 Unauthorized in 1170ms (Views: 0.7ms | ActiveRecord: 38.8ms | Allocations: 50577)
+
+
+Started POST "/login" for ::1 at 2024-12-08 17:17:34 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis1@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:9:in `create'
+Completed 401 Unauthorized in 1000ms (Views: 0.6ms | ActiveRecord: 17.3ms | Allocations: 6706)
+
+
+Started POST "/login" for ::1 at 2024-12-08 17:17:47 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis1@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:9:in `create'
+Completed 401 Unauthorized in 897ms (ActiveRecord: 11.1ms | Allocations: 6534)
+
+
+Started POST "/login" for ::1 at 2024-12-08 17:18:05 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis1@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:9:in `create'
+Completed 401 Unauthorized in 1162ms (Views: 0.6ms | ActiveRecord: 11.1ms | Allocations: 6685)
+
+
+Started POST "/login" for ::1 at 2024-12-08 17:19:16 +0000
+Processing by Users::SessionsController#create as */*
+  Parameters: {"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"ariclinis1@gmail.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ariclinis1@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users/sessions_controller.rb:9:in `create'
+Completed 200 OK in 927ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 2815)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 17:20:44 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (10.1ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 17:20:44.979498"], ["updated_at", "2024-12-08 17:20:44.979498"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 95ms (Views: 0.9ms | ActiveRecord: 24.0ms | Allocations: 20312)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 17:22:33 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Free1", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (5.9ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Free1"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 17:22:33.951184"], ["updated_at", "2024-12-08 17:22:33.951184"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 59ms (Views: 0.8ms | ActiveRecord: 21.1ms | Allocations: 7237)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 17:24:02 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+Completed 422 Unprocessable Content in 44ms (Views: 2.6ms | ActiveRecord: 11.8ms | Allocations: 5199)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 17:27:42 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+NoMethodError
+undefined method `[]' for nil:NilClass
+/home/cuidado/Documents/docker/rails-projects/mato_api/lib/okueca_tools/json_response.rb:10:in `initialize'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:5:in `new'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:5:in `json_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:9:in `render_error_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/plans_controller.rb:24:in `create'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:224:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rendering.rb:165:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:258:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rescue.rb:25:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `block in instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:160:in `process'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:227:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:309:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:51:in `block in serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `each'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:882:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/token_dispatcher.rb:20:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/revocation_manager.rb:21:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/builder.rb:277:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware.rb:22:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:36:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `catch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/etag.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/conditional_get.rb:43:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/head.rb:15:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/migration.rb:655:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:101:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `block in tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:39:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/broadcast_logger.rb:241:in `method_missing'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/request_id.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/runtime.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/static.rb:25:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/sendfile.rb:114:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-cors-2.0.2/lib/rack/cors.rb:102:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/engine.rb:536:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/configuration.rb:279:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:99:in `block in handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:98:in `handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:468:in `process_client'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:249:in `block in run'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:166:in `block in spawn_thread'
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 12.3ms | Allocations: 5961)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:5:in `new'
+app/controllers/concerns/api_response_handler.rb:5:in `json_response'
+app/controllers/concerns/api_response_handler.rb:9:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:49:in `handle_standard_error'
+app/controllers/concerns/api_exceptions_handler.rb:24:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started POST "/plans" for ::1 at 2024-12-08 17:29:20 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+NoMethodError
+undefined method `[]' for nil:NilClass
+/home/cuidado/Documents/docker/rails-projects/mato_api/lib/okueca_tools/json_response.rb:10:in `initialize'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:5:in `new'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:5:in `json_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:9:in `render_error_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/plans_controller.rb:24:in `create'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:224:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rendering.rb:165:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:258:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rescue.rb:25:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `block in instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:160:in `process'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:227:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:309:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:51:in `block in serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `each'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:882:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/token_dispatcher.rb:20:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/revocation_manager.rb:21:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/builder.rb:277:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware.rb:22:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:36:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `catch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/etag.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/conditional_get.rb:43:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/head.rb:15:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/migration.rb:655:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:101:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `block in tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:39:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/broadcast_logger.rb:241:in `method_missing'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/request_id.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/runtime.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/static.rb:25:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/sendfile.rb:114:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-cors-2.0.2/lib/rack/cors.rb:102:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/engine.rb:536:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/configuration.rb:279:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:99:in `block in handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:98:in `handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:468:in `process_client'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:249:in `block in run'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:166:in `block in spawn_thread'
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 13.0ms | Allocations: 5902)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:5:in `new'
+app/controllers/concerns/api_response_handler.rb:5:in `json_response'
+app/controllers/concerns/api_response_handler.rb:9:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:49:in `handle_standard_error'
+app/controllers/concerns/api_exceptions_handler.rb:24:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started POST "/plans" for ::1 at 2024-12-08 17:31:03 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+NoMethodError
+undefined method `[]' for nil:NilClass
+/home/cuidado/Documents/docker/rails-projects/mato_api/lib/okueca_tools/json_response.rb:10:in `initialize'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:5:in `new'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:5:in `json_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:11:in `render_error_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/plans_controller.rb:24:in `create'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:224:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rendering.rb:165:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:258:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rescue.rb:25:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `block in instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:160:in `process'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:227:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:309:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:51:in `block in serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `each'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:882:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/token_dispatcher.rb:20:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/revocation_manager.rb:21:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/builder.rb:277:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware.rb:22:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:36:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `catch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/etag.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/conditional_get.rb:43:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/head.rb:15:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/migration.rb:655:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:101:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `block in tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:39:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/broadcast_logger.rb:241:in `method_missing'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/request_id.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/runtime.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/static.rb:25:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/sendfile.rb:114:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-cors-2.0.2/lib/rack/cors.rb:102:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/engine.rb:536:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/configuration.rb:279:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:99:in `block in handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:98:in `handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:468:in `process_client'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:249:in `block in run'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:166:in `block in spawn_thread'
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 11.1ms | Allocations: 5975)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:5:in `new'
+app/controllers/concerns/api_response_handler.rb:5:in `json_response'
+app/controllers/concerns/api_response_handler.rb:11:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:49:in `handle_standard_error'
+app/controllers/concerns/api_exceptions_handler.rb:24:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started POST "/plans" for ::1 at 2024-12-08 17:32:07 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+NoMethodError
+undefined method `[]' for nil:NilClass
+/home/cuidado/Documents/docker/rails-projects/mato_api/lib/okueca_tools/json_response.rb:10:in `initialize'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:5:in `new'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:5:in `json_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:11:in `render_error_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/plans_controller.rb:24:in `create'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:224:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rendering.rb:165:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:258:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rescue.rb:25:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `block in instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:160:in `process'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:227:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:309:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:51:in `block in serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `each'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:882:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/token_dispatcher.rb:20:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/revocation_manager.rb:21:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/builder.rb:277:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware.rb:22:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:36:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `catch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/etag.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/conditional_get.rb:43:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/head.rb:15:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/migration.rb:655:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:101:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `block in tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:39:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/broadcast_logger.rb:241:in `method_missing'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/request_id.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/runtime.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/static.rb:25:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/sendfile.rb:114:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-cors-2.0.2/lib/rack/cors.rb:102:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/engine.rb:536:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/configuration.rb:279:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:99:in `block in handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:98:in `handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:468:in `process_client'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:249:in `block in run'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:166:in `block in spawn_thread'
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 9.9ms | Allocations: 6033)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:5:in `new'
+app/controllers/concerns/api_response_handler.rb:5:in `json_response'
+app/controllers/concerns/api_response_handler.rb:11:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:49:in `handle_standard_error'
+app/controllers/concerns/api_exceptions_handler.rb:24:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started POST "/plans" for ::1 at 2024-12-08 17:35:08 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+NoMethodError
+undefined method `[]' for nil:NilClass
+/home/cuidado/Documents/docker/rails-projects/mato_api/lib/okueca_tools/json_response.rb:10:in `initialize'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:7:in `new'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:7:in `json_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:11:in `render_error_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/plans_controller.rb:24:in `create'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:224:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rendering.rb:165:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:258:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rescue.rb:25:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `block in instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:160:in `process'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:227:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:309:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:51:in `block in serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `each'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:882:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/token_dispatcher.rb:20:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/revocation_manager.rb:21:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/builder.rb:277:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware.rb:22:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:36:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `catch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/etag.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/conditional_get.rb:43:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/head.rb:15:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/migration.rb:655:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:101:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `block in tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:39:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/broadcast_logger.rb:241:in `method_missing'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/request_id.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/runtime.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/static.rb:25:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/sendfile.rb:114:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-cors-2.0.2/lib/rack/cors.rb:102:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/engine.rb:536:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/configuration.rb:279:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:99:in `block in handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:98:in `handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:468:in `process_client'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:249:in `block in run'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:166:in `block in spawn_thread'
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 11.1ms | Allocations: 5936)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:7:in `new'
+app/controllers/concerns/api_response_handler.rb:7:in `json_response'
+app/controllers/concerns/api_response_handler.rb:11:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:49:in `handle_standard_error'
+app/controllers/concerns/api_exceptions_handler.rb:24:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started POST "/plans" for ::1 at 2024-12-08 17:38:57 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+NoMethodError
+undefined method `[]' for nil:NilClass
+/home/cuidado/Documents/docker/rails-projects/mato_api/lib/okueca_tools/json_response.rb:10:in `initialize'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:7:in `new'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:7:in `json_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:11:in `render_error_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/plans_controller.rb:24:in `create'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:224:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rendering.rb:165:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:258:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rescue.rb:25:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `block in instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:160:in `process'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:227:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:309:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:51:in `block in serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `each'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:882:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/token_dispatcher.rb:20:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/revocation_manager.rb:21:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/builder.rb:277:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware.rb:22:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:36:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `catch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/etag.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/conditional_get.rb:43:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/head.rb:15:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/migration.rb:655:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:101:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `block in tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:39:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/broadcast_logger.rb:241:in `method_missing'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/request_id.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/runtime.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/static.rb:25:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/sendfile.rb:114:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-cors-2.0.2/lib/rack/cors.rb:102:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/engine.rb:536:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/configuration.rb:279:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:99:in `block in handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:98:in `handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:468:in `process_client'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:249:in `block in run'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:166:in `block in spawn_thread'
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 9.1ms | Allocations: 5922)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:7:in `new'
+app/controllers/concerns/api_response_handler.rb:7:in `json_response'
+app/controllers/concerns/api_response_handler.rb:11:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:49:in `handle_standard_error'
+app/controllers/concerns/api_exceptions_handler.rb:24:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started POST "/plans" for ::1 at 2024-12-08 17:40:26 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+NoMethodError
+undefined method `[]' for nil:NilClass
+/home/cuidado/Documents/docker/rails-projects/mato_api/lib/okueca_tools/json_response.rb:10:in `initialize'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:7:in `new'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:7:in `json_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:12:in `render_error_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/plans_controller.rb:24:in `create'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:224:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rendering.rb:165:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:258:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rescue.rb:25:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `block in instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:160:in `process'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:227:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:309:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:51:in `block in serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `each'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:882:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/token_dispatcher.rb:20:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/revocation_manager.rb:21:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/builder.rb:277:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware.rb:22:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:36:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `catch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/etag.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/conditional_get.rb:43:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/head.rb:15:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/migration.rb:655:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:101:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `block in tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:39:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/broadcast_logger.rb:241:in `method_missing'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/request_id.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/runtime.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/static.rb:25:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/sendfile.rb:114:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-cors-2.0.2/lib/rack/cors.rb:102:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/engine.rb:536:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/configuration.rb:279:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:99:in `block in handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:98:in `handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:468:in `process_client'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:249:in `block in run'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:166:in `block in spawn_thread'
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 13.0ms | Allocations: 5942)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:7:in `new'
+app/controllers/concerns/api_response_handler.rb:7:in `json_response'
+app/controllers/concerns/api_response_handler.rb:12:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:49:in `handle_standard_error'
+app/controllers/concerns/api_exceptions_handler.rb:24:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started POST "/plans" for ::1 at 2024-12-08 17:41:21 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+NoMethodError
+undefined method `[]' for nil:NilClass
+/home/cuidado/Documents/docker/rails-projects/mato_api/lib/okueca_tools/json_response.rb:10:in `initialize'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:7:in `new'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:7:in `json_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_response_handler.rb:12:in `render_error_response'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/plans_controller.rb:24:in `create'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:224:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rendering.rb:165:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/home/cuidado/Documents/docker/rails-projects/mato_api/app/controllers/concerns/api_exceptions_handler.rb:9:in `handle_exceptions'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/callbacks.rb:258:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/rescue.rb:25:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `block in instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/notifications.rb:206:in `instrument'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/abstract_controller/base.rb:160:in `process'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:227:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_controller/metal.rb:309:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:51:in `block in serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `each'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:124:in `find_routes'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/journey/router.rb:32:in `serve'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/routing/route_set.rb:882:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/token_dispatcher.rb:20:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware/revocation_manager.rb:21:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/builder.rb:277:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-jwt_auth-0.10.0/lib/warden/jwt_auth/middleware.rb:22:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:36:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `catch'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/etag.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/conditional_get.rb:43:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/head.rb:15:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activerecord-7.1.5/lib/active_record/migration.rb:655:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/callbacks.rb:101:in `run_callbacks'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `block in tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:39:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/tagged_logging.rb:139:in `tagged'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/broadcast_logger.rb:241:in `method_missing'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/rack/logger.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/request_id.rb:28:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/runtime.rb:24:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/activesupport-7.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/static.rb:25:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-3.1.8/lib/rack/sendfile.rb:114:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/actionpack-7.1.5/lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/rack-cors-2.0.2/lib/rack/cors.rb:102:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/railties-7.1.5/lib/rails/engine.rb:536:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/configuration.rb:279:in `call'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:99:in `block in handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/request.rb:98:in `handle_request'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:468:in `process_client'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/server.rb:249:in `block in run'
+/home/cuidado/.rbenv/versions/3.0.6/lib/ruby/gems/3.0.0/gems/puma-6.5.0/lib/puma/thread_pool.rb:166:in `block in spawn_thread'
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 15.1ms | Allocations: 5981)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:7:in `new'
+app/controllers/concerns/api_response_handler.rb:7:in `json_response'
+app/controllers/concerns/api_response_handler.rb:12:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:49:in `handle_standard_error'
+app/controllers/concerns/api_exceptions_handler.rb:24:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started POST "/plans" for ::1 at 2024-12-08 17:41:50 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 10.3ms | Allocations: 5912)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:7:in `new'
+app/controllers/concerns/api_response_handler.rb:7:in `json_response'
+app/controllers/concerns/api_response_handler.rb:12:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:49:in `handle_standard_error'
+app/controllers/concerns/api_exceptions_handler.rb:24:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started POST "/plans" for ::1 at 2024-12-08 17:42:57 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 12.7ms | Allocations: 5487)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:7:in `new'
+app/controllers/concerns/api_response_handler.rb:7:in `json_response'
+app/controllers/concerns/api_response_handler.rb:12:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:49:in `handle_standard_error'
+app/controllers/concerns/api_exceptions_handler.rb:24:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started POST "/plans" for ::1 at 2024-12-08 17:43:54 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+Completed 204 No Content in 43ms (ActiveRecord: 10.6ms | Allocations: 4651)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 17:44:17 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 9.9ms | Allocations: 5466)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:7:in `new'
+app/controllers/concerns/api_response_handler.rb:7:in `json_response'
+app/controllers/concerns/api_response_handler.rb:12:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:48:in `handle_standard_error'
+app/controllers/concerns/api_exceptions_handler.rb:24:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started POST "/plans" for ::1 at 2024-12-08 17:53:06 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+Completed 422 Unprocessable Content in 101ms (Views: 0.5ms | ActiveRecord: 12.9ms | Allocations: 7764)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 17:53:37 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+Completed 422 Unprocessable Content in 45ms (Views: 0.6ms | ActiveRecord: 19.2ms | Allocations: 4987)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 17:53:55 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+Completed 422 Unprocessable Content in 44ms (Views: 1.7ms | ActiveRecord: 11.9ms | Allocations: 5263)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 17:54:43 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+Completed 422 Unprocessable Content in 45ms (Views: 2.2ms | ActiveRecord: 14.4ms | Allocations: 5262)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 18:01:54 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+Completed 422 Unprocessable Content in 135ms (Views: 2.0ms | ActiveRecord: 19.2ms | Allocations: 7950)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 18:03:16 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+Completed 422 Unprocessable Content in 54ms (Views: 2.4ms | ActiveRecord: 22.4ms | Allocations: 5279)
+
+
+Started PUT "/plans/1" for ::1 at 2024-12-08 18:17:03 +0000
+Processing by PlansController#update as */*
+  Parameters: {"plan"=>{"name"=>"Companies", "price"=>2.5}, "id"=>"1"}
+  [1m[36mPlan Load (1.9ms)[0m  [1m[34mSELECT "plans".* FROM "plans" WHERE "plans"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/plans_controller.rb:48:in `set_plan'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:29:in `update'
+  [1m[36mPlan Update (5.8ms)[0m  [1m[33mUPDATE "plans" SET "name" = $1, "price" = $2, "updated_at" = $3 WHERE "plans"."id" = $4[0m  [["name", "Companies"], ["price", 2.5], ["updated_at", "2024-12-08 18:17:04.175430"], ["id", 1]]
+  ↳ app/controllers/plans_controller.rb:29:in `update'
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:29:in `update'
+Completed 200 OK in 195ms (Views: 0.9ms | ActiveRecord: 40.5ms | Allocations: 11128)
+
+
+Started PUT "/plans/1" for ::1 at 2024-12-08 18:17:28 +0000
+Processing by PlansController#update as */*
+  Parameters: {"plan"=>{"name"=>"Companies", "price"=>2.5, "ocurrency"=>1}, "id"=>"1"}
+  [1m[36mPlan Load (1.1ms)[0m  [1m[34mSELECT "plans".* FROM "plans" WHERE "plans"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/plans_controller.rb:48:in `set_plan'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:29:in `update'
+  [1m[36mPlan Update (11.3ms)[0m  [1m[33mUPDATE "plans" SET "ocurrency" = $1, "updated_at" = $2 WHERE "plans"."id" = $3[0m  [["ocurrency", 1], ["updated_at", "2024-12-08 18:17:29.013727"], ["id", 1]]
+  ↳ app/controllers/plans_controller.rb:29:in `update'
+  [1m[36mTRANSACTION (6.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:29:in `update'
+Completed 200 OK in 47ms (Views: 0.8ms | ActiveRecord: 19.8ms | Allocations: 2976)
+
+
+Started DELETE "/plans/1" for ::1 at 2024-12-08 18:18:09 +0000
+Processing by PlansController#destroy as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPlan Load (1.0ms)[0m  [1m[34mSELECT "plans".* FROM "plans" WHERE "plans"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/plans_controller.rb:48:in `set_plan'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:38:in `destroy'
+  [1m[36mPlan Destroy (6.4ms)[0m  [1m[31mDELETE FROM "plans" WHERE "plans"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/plans_controller.rb:38:in `destroy'
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:38:in `destroy'
+Completed 200 OK in 28ms (Views: 0.6ms | ActiveRecord: 11.1ms | Allocations: 2399)
+
+
+Started DELETE "/plans/1" for ::1 at 2024-12-08 18:18:14 +0000
+Processing by PlansController#destroy as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPlan Load (1.2ms)[0m  [1m[34mSELECT "plans".* FROM "plans" WHERE "plans"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/plans_controller.rb:48:in `set_plan'
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 1.2ms | Allocations: 705)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+lib/okueca_tools/json_response.rb:10:in `[]'
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:5:in `new'
+app/controllers/concerns/api_response_handler.rb:5:in `json_response'
+app/controllers/concerns/api_response_handler.rb:9:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:30:in `handle_record_not_found'
+app/controllers/concerns/api_exceptions_handler.rb:11:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started GET "/plans/1" for ::1 at 2024-12-08 18:23:28 +0000
+Processing by PlansController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPlan Load (0.9ms)[0m  [1m[34mSELECT "plans".* FROM "plans" WHERE "plans"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/plans_controller.rb:48:in `set_plan'
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 23.1ms | Allocations: 3016)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+lib/okueca_tools/json_response.rb:10:in `[]'
+lib/okueca_tools/json_response.rb:10:in `initialize'
+app/controllers/concerns/api_response_handler.rb:5:in `new'
+app/controllers/concerns/api_response_handler.rb:5:in `json_response'
+app/controllers/concerns/api_response_handler.rb:9:in `render_error_response'
+app/controllers/concerns/api_exceptions_handler.rb:30:in `handle_record_not_found'
+app/controllers/concerns/api_exceptions_handler.rb:11:in `rescue in handle_exceptions'
+app/controllers/concerns/api_exceptions_handler.rb:8:in `handle_exceptions'
+Started GET "/plans/1" for ::1 at 2024-12-08 18:29:13 +0000
+Processing by PlansController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPlan Load (1.1ms)[0m  [1m[34mSELECT "plans".* FROM "plans" WHERE "plans"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/plans_controller.rb:48:in `set_plan'
+Completed 422 Unprocessable Content in 102ms (Views: 0.5ms | ActiveRecord: 17.6ms | Allocations: 5824)
+
+
+Started DELETE "/plans/1" for ::1 at 2024-12-08 18:30:59 +0000
+Processing by PlansController#destroy as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPlan Load (1.1ms)[0m  [1m[34mSELECT "plans".* FROM "plans" WHERE "plans"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/plans_controller.rb:48:in `set_plan'
+Completed 422 Unprocessable Content in 42ms (Views: 0.6ms | ActiveRecord: 22.8ms | Allocations: 3043)
+
+
+Started DELETE "/plans/1" for ::1 at 2024-12-08 18:31:56 +0000
+Processing by PlansController#destroy as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPlan Load (1.2ms)[0m  [1m[34mSELECT "plans".* FROM "plans" WHERE "plans"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/plans_controller.rb:48:in `set_plan'
+Completed 422 Unprocessable Content in 9ms (Views: 0.4ms | ActiveRecord: 1.1ms | Allocations: 714)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 18:32:17 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"name"=>"Companies", "price"=>2.5}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mPlan Create (8.7ms)[0m  [1m[32mINSERT INTO "plans" ("name", "price", "ocurrency", "about", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Companies"], ["price", 2.5], ["ocurrency", nil], ["about", nil], ["created_at", "2024-12-08 18:32:17.986998"], ["updated_at", "2024-12-08 18:32:17.986998"]]
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (6.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/plans_controller.rb:20:in `create'
+Completed 200 OK in 80ms (Views: 0.8ms | ActiveRecord: 16.1ms | Allocations: 6451)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 18:32:28 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+Completed 422 Unprocessable Content in 8ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 635)
+
+
+Started DELETE "/plans/1" for ::1 at 2024-12-08 18:36:00 +0000
+Processing by PlansController#destroy as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPlan Load (1.0ms)[0m  [1m[34mSELECT "plans".* FROM "plans" WHERE "plans"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/plans_controller.rb:48:in `set_plan'
+Completed 422 Unprocessable Content in 33ms (Views: 0.9ms | ActiveRecord: 14.3ms | Allocations: 3040)
+
+
+Started POST "/plans" for ::1 at 2024-12-08 18:36:25 +0000
+Processing by PlansController#create as */*
+  Parameters: {"plan"=>{"price"=>2.5}}
+Completed 422 Unprocessable Content in 39ms (Views: 2.4ms | ActiveRecord: 10.1ms | Allocations: 5277)
+
+
+Started DELETE "/plans/1" for ::1 at 2024-12-08 18:36:32 +0000
+Processing by PlansController#destroy as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPlan Load (1.1ms)[0m  [1m[34mSELECT "plans".* FROM "plans" WHERE "plans"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/plans_controller.rb:48:in `set_plan'
+Completed 422 Unprocessable Content in 11ms (Views: 0.7ms | ActiveRecord: 1.1ms | Allocations: 1007)
+
+
+Started DELETE "/plans/1" for ::1 at 2024-12-08 18:38:18 +0000
+Processing by PlansController#destroy as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPlan Load (1.0ms)[0m  [1m[34mSELECT "plans".* FROM "plans" WHERE "plans"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/plans_controller.rb:45:in `set_plan'
+Completed 422 Unprocessable Content in 33ms (Views: 0.5ms | ActiveRecord: 13.6ms | Allocations: 3025)
+
+

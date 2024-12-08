@@ -13,6 +13,12 @@ module ApiExceptionsHandler
     handle_validation_error(e)
   rescue ActionController::ParameterMissing => e
     handle_parameter_missing(e)
+  rescue JWT::ExpiredSignature => e
+    handle_jwt_expired_error(e)
+  rescue JWT::ExpiredSignature, JWT::VerificationError => e
+    handle_jwt_expired_error(e)
+  rescue JWT::DecodeError, JWT::VerificationError => e
+    handle_jwt_expired_error(e)
   rescue StandardError => e
     handle_standard_error(e)
   end
@@ -20,7 +26,7 @@ module ApiExceptionsHandler
   private
 
   def handle_record_not_found(exception)
-    render_error_response("Record not found for #{exception.model}", 404)
+    render_error_response(errors: {"#{exception.model}": ["Record not found"]}, message: "Problem with #{exception.model}", status: 404)
   end
 
   def handle_validation_error(exception)
@@ -31,9 +37,14 @@ module ApiExceptionsHandler
     render_error_response(exception.message, 400)
   end
 
+  def handle_jwt_expired_error(exception)
+    # Handle the expired JWT error, such as returning a specific message or status code
+    Rails.logger.error "JWT Expired: #{exception.message}"
+    render_error_response('JWT token has expired. Please log in again.', :unauthorized)
+  end
+
   def handle_standard_error(exception)
-    log_exception(exception) unless Rails.env.test?
-    render_error_response(exception.message, 500)
+    render_error_response(message: exception.message, status:500)
   end
 
   def log_exception(exception)
